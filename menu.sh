@@ -1,10 +1,10 @@
 #!/bin/bash
 
 # Source required files
-source ~/shell-scripts/aws-ec2/config.sh
-source ~/shell-scripts/aws-ec2/key-pair.sh
-source ~/shell-scripts/aws-ec2/security-group.sh
-source ~/shell-scripts/aws-ec2/launch-instance.sh
+source ~/aws-ec2-shell-script/config.sh
+source ~/aws-ec2-shell-script/key-pair.sh
+source ~/aws-ec2-shell-script/security-group.sh
+source ~/aws-ec2-shell-script/launch-instance.sh
 
 # Function to display menu
 show_menu() {
